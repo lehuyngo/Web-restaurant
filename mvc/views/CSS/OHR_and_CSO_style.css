@@ -1,0 +1,38 @@
+button#confirm_order {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.unpaid {
+    width: fit-content;
+    border-radius: 12px;
+    padding: 14px 30px 14px 30px;
+    background-color: #66996B;
+    font-size: 16px;
+}
+
+button#confirm_order:hover {
+    opacity: 0.8;
+}
+
+.pagination {
+    display: inline-block;
+    justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #66996B;
+}

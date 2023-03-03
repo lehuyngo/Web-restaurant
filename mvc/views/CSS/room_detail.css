@@ -1,0 +1,30 @@
+
+.RoomDetailBody
+{
+    display: flex;
+}
+.room-menu
+{
+    width: 25%;
+}
+.collapsible {
+    background-color: #8AD385;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: flex;
+  }
+  
+.active, .collapsible:hover {
+    background-color: red;
+  }
+.col{
+    width: 100%;
+    display: flex;
+}
+
